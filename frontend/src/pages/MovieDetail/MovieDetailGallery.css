@@ -1,0 +1,29 @@
+/* Thu nhỏ toàn bộ icon điều khiển */
+.yarl__toolbar > button {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+}
+
+/* Thu nhỏ biểu tượng SVG bên trong */
+.yarl__button svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Nếu muốn làm nhỏ thanh công cụ */
+.yarl__toolbar {
+  gap: 8px; /* khoảng cách giữa các icon */
+  padding: 8px;
+}
+/* Làm mờ thumbnail không active */
+.yarl__thumbnails_thumbnail {
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+/* Hiển thị rõ thumbnail đang active */
+.yarl__thumbnails_thumbnail[aria-current="true"] {
+  opacity: 1;
+  box-shadow: 0 0 4px #facc15;
+}
