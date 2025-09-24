@@ -58,6 +58,8 @@ exports.deleteUser = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+
 exports.changePassword = async (req, res) => {
   const { oldPassword, newPassword, confirmPassword } = req.body;
   const userId = req.params.id;

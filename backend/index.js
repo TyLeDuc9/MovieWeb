@@ -17,7 +17,9 @@ mongoose.connect(process.env.MONGODB_URL, {
 .then(() => console.log('✅ Connected MongoDB'))
 .catch(err => console.error('❌ MongoDB connection error:', err));
 
-
+app.get("/", (req, res) => {
+  res.send("🎬 MovieWeb API is running...");
+});
 app.use(cors());
 app.use(cookieParser());
 app.use(express.json());

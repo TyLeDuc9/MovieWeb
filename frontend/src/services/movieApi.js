@@ -1,7 +1,7 @@
 import axios from 'axios';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const BASE_URL = 'https://api.themoviedb.org/3';
-const LANGUAGE = 'vi-VN';
+const LANGUAGE = 'vi-VN'; 
 export const fetchUpComingMovies = async () => {
   const response = await axios.get(`${BASE_URL}/movie/upcoming?api_key=${API_KEY}&language=${LANGUAGE}&page=1`);
   const allMovies = response.data.results;
@@ -26,7 +26,7 @@ export const fetchVietNamMovies = async () => {
       sort_by: 'popularity.desc',
       language: LANGUAGE,
       region: 'VN',
-      page: 3,
+      page: 5,
     }
   });
   const allMovies = response.data.results;
@@ -96,7 +96,7 @@ export const fetchAnimationSeriesMovies = async () => {
       language: LANGUAGE,
       with_genres: '16',
       sort_by: 'popularity.desc',
-      page: 2,
+      page: 1,
     }
   });
   const allSeries = response.data.results;
@@ -135,7 +135,7 @@ export const fetchLatest6Movies = async () => {
     params: {
       api_key: API_KEY,
       language: LANGUAGE,
-      page:25,
+      page:1,
       region: 'US'
     }
   });
