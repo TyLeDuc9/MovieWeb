@@ -63,6 +63,8 @@ VITE_TMDB_API_KEY=your_key
 🔹 Chạy Frontend
 npm run dev
 
-📩 Liên hệ
-Gmail: ducty9963@gmail.com
-Facebook: https://www.facebook.com/eucyldt/
+---
+
+## 📩 Liên hệ
+- Gmail: ducty9963@gmail.com]
+- Facebook: https://www.facebook.com/eucyldt/
