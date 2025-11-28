@@ -9,7 +9,7 @@ export const MovieCard = ({ movie }) => {
       <img
         src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path || 'No images'}`}
         alt={movie.title}
-        className="lg:w-full lg:h-[200px] w-[100%] object-cover rounded-lg px-2"
+        className="lg:w-full lg:h-[200px] w-[100%] object-cover rounded-xl px-2"
         loading="lazy"
       />
       <div className="p-2 text-white">

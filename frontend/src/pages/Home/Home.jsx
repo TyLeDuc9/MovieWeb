@@ -18,7 +18,7 @@ export const Home = () => {
       <div className="movie-section w-[95%] mx-auto rounded-2xl">
         <MovieSectionGeneral title="Phim Việt Nam" type="vietNamMovies"
           linkColor="lg:text-3xl text-sm md:text-lg font-bold 
-        bg-gradient-to-r from-blue-800 to-blue-200 text-transparent bg-clip-text" />
+        bg-gradient-to-r from-blue-800 to-blue-300 text-transparent bg-clip-text" />
         <MovieSectionGeneral title="Phim Trung Quốc" type="chineseMovies"
           linkColor="lg:text-3xl text-sm md:text-lg font-bold 
           bg-gradient-to-r from-yellow-300 to-yellow-100 bg-clip-text text-transparent" />

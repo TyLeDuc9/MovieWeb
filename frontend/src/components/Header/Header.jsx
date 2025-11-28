@@ -257,7 +257,7 @@ export const Header = () => {
                         </a>
                         {showGenreDropdown && (
                           <div className='lg:p-6 lg:bg-[#282b39]/90  lg:left-0 lg:top-full
-                          bg-black/90 rounded shadow-lg z-50 lg:w-[500px] p-2 mt-2 absolute w-[300px] -left-36'>
+                          bg-black/90 rounded shadow-lg z-50 lg:w-[500px] p-2 mt-2 absolute w-[350px] -left-36'>
                             <GenreDropdown closeDropdown={() => setShowGenreDropdown(false)} />
                           </div>
                         )}
@@ -277,7 +277,7 @@ export const Header = () => {
                           <FaChevronDown className="text-xs mt-0.5 font-bold" />
                         </a>
                         {showCountriesDropdown && (
-                          <div className='absolute w-[160px] p-2 bg-black/90 left-0 top-full rounded shadow-lg z-50 mt-2 
+                          <div className='absolute w-[350px] p-2 bg-black/90 left-0 top-full rounded shadow-lg z-50 mt-2 
                           lg:bg-[#282b39]/90 lg:p-6 lg:w-[500px]'>
                             <ContriesDropdown closeDropdown={() => setShowCountriesDropdown(false)} />
                           </div>

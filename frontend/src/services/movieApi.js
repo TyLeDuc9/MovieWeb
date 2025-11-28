@@ -26,7 +26,7 @@ export const fetchVietNamMovies = async () => {
       sort_by: 'popularity.desc',
       language: LANGUAGE,
       region: 'VN',
-      page: 5,
+      page: 1,
     }
   });
   const allMovies = response.data.results;
@@ -135,8 +135,7 @@ export const fetchLatest6Movies = async () => {
     params: {
       api_key: API_KEY,
       language: LANGUAGE,
-      page:1,
-      region: 'US'
+      page:1
     }
   });
 

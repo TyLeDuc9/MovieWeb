@@ -8,7 +8,7 @@ export const ContriesDropdown = ({ closeDropdown }) => {
   return (
     <div className='rounded-lg'>
       {countries && countries.length > 0 ? (
-        <ul className='grid grid-cols-2 
+        <ul className='grid grid-cols-2  sm:grid-cols-3
         lg:grid-cols-3 lg:gap-4'>
           {countries.map((item) => (
             <li key={item.iso_3166_1} className=' hover:text-amber-300 py-1 px-2'>
