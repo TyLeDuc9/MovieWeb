@@ -2,41 +2,50 @@
 
 MovieWeb là một dự án website xem phim được xây dựng theo kiến trúc **MERN Stack**, bao gồm các chức năng xem phim, tìm kiếm, lưu phim yêu thích, đăng nhập, cập nhật thông tin người dùng,…
 
+## 📩 Liên hệ
+
+- Gmail: ducty9963@gmail.com
+- Facebook: https://www.facebook.com/eucyldt/
+
 ---
 
 ## 🚀 Công nghệ sử dụng
 
 ### 🔹 Frontend
-- React.js  
-- Redux Toolkit  
-- Axios  
-- React Router  
-- TailwindCSS  
+
+- React.js
+- Redux Toolkit
+- Axios
+- React Router
+- TailwindCSS
 
 ### 🔹 Backend
-- Node.js  
-- Express.js  
-- MongoDB  
-- Mongoose  
-- JWT – xác thực người dùng  
-- bcryptjs – mã hóa mật khẩu  
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT – xác thực người dùng
+- bcryptjs – mã hóa mật khẩu
 
 ---
 
 ## 🎯 Chức năng chính
-- Đăng ký, đăng nhập bằng JWT  
-- Xem danh sách phim  
-- Tìm kiếm phim  
-- Thêm phim vào danh sách yêu thích  
-- Đổi mật khẩu  
-- Đổi ảnh đại diện  
-- Cập nhật thông tin cá nhân  
+
+- Đăng ký, đăng nhập bằng JWT
+- Xem danh sách phim
+- Tìm kiếm phim
+- Thêm phim vào danh sách yêu thích
+- Đổi mật khẩu
+- Đổi ảnh đại diện
+- Cập nhật thông tin cá nhân
 
 ---
 
 ## 📥 Cài đặt dự án
 
 ### 🔹 1. Clone dự án
+
 ```bash
 git clone https://github.com/TyLeDuc9/MovieWeb.git
 cd MovieWeb
@@ -63,8 +72,4 @@ VITE_TMDB_API_KEY=your_key
 🔹 Chạy Frontend
 npm run dev
 
----
-
-## 📩 Liên hệ
-- Gmail: ducty9963@gmail.com]
-- Facebook: https://www.facebook.com/eucyldt/
+```
