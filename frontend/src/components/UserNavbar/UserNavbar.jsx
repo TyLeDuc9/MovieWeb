@@ -63,7 +63,7 @@ export const UserNavbar = () => {
         linkColor='text-white text-lg font-bold'
       />
 
-      <ul className='text-[16px] text-white w-full px-4 flex lg:flex-col'>
+      <ul className=' text-white w-full px-4 flex lg:flex-col'>
         {tabs.map((tab) => (
           <li
             key={tab.id}
@@ -71,8 +71,8 @@ export const UserNavbar = () => {
             className={`flex flex-col lg:flex-row  items-center gap-2 py-4 px-2.5 sm:px-10 border-b border-white cursor-pointer text-sm 
             ${activeTab === tab.id ? 'text-amber-200 font-semibold' : 'hover:text-amber-100'}`}
           >
-              <span className="text-xs lg:text-sm sm:text-sm">{tab.icon}</span>
-              <span className='text-xs lg:text-sm sm:text-sm'>{tab.name}</span>
+              <span className="text-xs lg:text-lg sm:text-sm">{tab.icon}</span>
+              <span className='text-xs lg:text-lg sm:text-sm'>{tab.name}</span>
           </li>
         ))}
       </ul>

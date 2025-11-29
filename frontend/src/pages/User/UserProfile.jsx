@@ -69,7 +69,7 @@ export const UserProfile = () => {
           />
 
           <label className='text-gray-400 text-xs mb-1'>Giới tính</label>
-          <div className="flex gap-4 text-white text-sm mb-6">
+          <div className="flex gap-4 text-white lg:text-base text-sm mb-6">
             <label><input type="radio" name="gender" value="male" checked={gender === 'male'}
               onChange={() => setGender('male')} /> Nam</label>
             <label><input type="radio" name="gender" value="female" checked={gender === 'female'}

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const BannerDetail = ({ movie }) => {
   return (
-    <div className="w-full lg:h-[650px] h-[350px] overflow-hidden flex items-center justify-center bg-gray-800 rounded-xl text-white text-xl">
+    <div className="w-full lg:h-[650px] h-[250px] overflow-hidden flex items-center justify-center bg-gray-800 rounded-xl text-white text-xl">
       {movie?.backdrop_path ? (
         <img
           src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}

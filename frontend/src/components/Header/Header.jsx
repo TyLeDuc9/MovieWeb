@@ -79,7 +79,7 @@ export const Header = () => {
   return (
     <>
       <header
-        className={`lg:grid lg:grid-cols-12 px-3 py-3 fixed top-0 right-0 w-full z-50 transition duration-300 bg-black
+        className={`lg:grid lg:grid-cols-12 px-3 py-3 lg:py-6 fixed top-0 right-0 w-full z-50 transition duration-300 bg-black/40
         ${isScrolled ? 'lg:bg-black shadow-md' : 'lg:bg-transparent'}`}
       >
         <div className='lg:col-span-4 lg:flex lg:items-center lg:gap-4 flex'>
