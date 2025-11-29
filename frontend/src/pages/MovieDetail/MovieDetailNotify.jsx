@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaVideo, FaBell, FaPlus, FaPaperPlane, FaCommentDots, FaHeart } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { handleNavigateTrailer } from '../../utils/handleNavigateTrailer';
 import { useDispatch, useSelector } from 'react-redux';
 import { addFavorite, removeFavorite } from '../../redux/apiFavorite';
-
+import { Share } from '../../components/Share/Share';
 export const MovieDetailNotify = ({ movie, scrollToComment }) => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const currentUser = useSelector((state) => state.auth.login.currentUser);
     const token = currentUser?.token;
     const { items } = useSelector((state) => state.favorite);
+    const [showShare, setShowShare] = useState(false)
 
     const isFavorite = items?.some((item) => item.tmdbMovieId === movie.id);
 
@@ -29,7 +30,7 @@ export const MovieDetailNotify = ({ movie, scrollToComment }) => {
                 await addFavorite(favoriteData, dispatch, token);
             }
         } else if (name === 'Chia sẻ') {
-            alert('Chức năng chia sẻ đang phát triển');
+            setShowShare(true)
         } else if (name === 'Thêm vào') {
             alert('Chức năng thêm đang phát triển');
         }
@@ -79,6 +80,9 @@ export const MovieDetailNotify = ({ movie, scrollToComment }) => {
                     ))}
                 </ul>
             </div>
+            {
+                showShare && <Share onClose={() => setShowShare(false)}/>
+            }
         </section>
     );
 };
