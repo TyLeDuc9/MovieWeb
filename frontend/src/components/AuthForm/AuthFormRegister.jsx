@@ -49,7 +49,7 @@ export const AuthFormRegister = ({ closeForm, handleSwitch, formType }) => {
         <div className="lg:fixed inset-0 z-50 flex items-center justify-center mt-4 relative">
             <div className="lg:w-[900px] lg:h-[75vh] lg:relative lg:-top-6 lg:left-6
                 md:w-[450px] md:h-[400px] md:top-40 md:left-36
-                w-[310px] h-[300px] flex  overflow-hidden shadow-2xl absolute top-36 left-7">
+                w-[90%] h-[350px] flex  overflow-hidden shadow-2xl absolute top-36 left-7">
 
                 <div
                     className="w-1/2 h-full bg-cover bg-center relative hidden lg:block"

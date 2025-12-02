@@ -27,7 +27,7 @@ export const Search = () => {
             <div className='
             flex items-center text-white border border-white/40 transition duration-300 px-2 py-1.5 text-xs
             lg:py-1.5 rounded-sm lg:px-2 lg:text-base'>
-                <FaSearch onClick={handleSearch} className='text-white lg:text-lg text-xs' />
+                <FaSearch onClick={handleSearch} className='text-white lg:text-lg base' />
 
                 <input
                     onChange={(e) => setQueryMovies(e.target.value)}
