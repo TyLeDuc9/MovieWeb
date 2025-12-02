@@ -57,7 +57,7 @@ export const AuthFormChangePass = ({ closeForm }) => {
                             type="password"
                             value={oldPass}
                             onChange={(e) => setOldPass(e.target.value)}
-                            className="w-full text-white p-2 bg-transparent border border-gray-600 rounded focus:border-white text-sm"
+                            className="w-full text-white p-2 bg-transparent text-base border border-gray-600 rounded focus:border-white"
                         />
                     </div>
                     <div className='relative'>
@@ -66,7 +66,7 @@ export const AuthFormChangePass = ({ closeForm }) => {
                             type={showPassword ? 'text' : 'password'}
                             value={newPass}
                             onChange={(e) => setNewPass(e.target.value)}
-                            className="w-full text-white p-2 bg-transparent border border-gray-600 rounded focus:border-white text-sm"
+                            className="w-full text-white p-2 bg-transparent border border-gray-600 rounded focus:border-white text-base"
                         />
                         <span
                             className="absolute right-3 top-10 transform -translate-y-1/2 cursor-pointer text-gray-400 hover:text-amber-300"
@@ -76,12 +76,12 @@ export const AuthFormChangePass = ({ closeForm }) => {
                         </span>
                     </div>
                     <div className='relative'>
-                        <label className="block text-gray-400 text-sm mb-1">Nhập lại mật khẩu mới</label>
+                        <label className="block text-gray-400base mb-1">Nhập lại mật khẩu mới</label>
                         <input
                             type={showPassword ? 'text' : 'password'}
                             value={confirmPass}
                             onChange={(e) => setConfirmPass(e.target.value)}
-                            className="w-full text-white p-2 bg-transparent border border-gray-600 rounded focus:border-white text-sm"
+                            className="w-full text-white p-2 bg-transparent border border-gray-600 rounded focus:border-white text-base"
                         />
                         <span
                             className="absolute right-3 top-10 transform -translate-y-1/2 cursor-pointer text-gray-400 hover:text-amber-300"

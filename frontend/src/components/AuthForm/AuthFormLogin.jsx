@@ -84,7 +84,7 @@ export const AuthFormLogin = ({ closeForm, handleSwitch, formType }) => {
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                             placeholder="Email"
-                            className="w-full lg:text-[16px] lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-xs"
+                            className="w-full lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-base"
                             required
                         />
                         <div className="relative">
@@ -94,7 +94,7 @@ export const AuthFormLogin = ({ closeForm, handleSwitch, formType }) => {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 autoComplete="new-password"
-                                className="w-full lg:text-[16px] lg:px-4 md:py-2 lg:py-2 p-2 pr-10 bg-transparent border border-gray-600 rounded focus:border-white text-xs"
+                                className="w-full lg:px-4 md:py-2 lg:py-2 p-2 pr-10 bg-transparent border border-gray-600 rounded focus:border-white text-base"
                                 required
                             />
                             <span

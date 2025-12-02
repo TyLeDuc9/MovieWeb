@@ -87,7 +87,7 @@ export const AuthFormRegister = ({ closeForm, handleSwitch, formType }) => {
                             placeholder="Email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="w-full lg:text-[16px] lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-xs"
+                            className="w-full text-base lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white"
                             required
                         />
                         <div className='relative'>
@@ -97,7 +97,7 @@ export const AuthFormRegister = ({ closeForm, handleSwitch, formType }) => {
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)}
                                 autoComplete="new-password"
-                                className="w-full lg:text-[16px] lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-xs"
+                                className="w-full text-base lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white"
                                 required
                             />
                             <span
@@ -113,7 +113,7 @@ export const AuthFormRegister = ({ closeForm, handleSwitch, formType }) => {
                                 placeholder="Nhập lại mật khẩu"
                                 value={confirmPassword}
                                 onChange={(e) => setConfirmPassword(e.target.value)}
-                                className="w-full lg:text-[16px] lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-xs"
+                                className="w-full lg:px-4 md:py-2 lg:py-2 p-2 bg-transparent border border-gray-600 rounded focus:border-white text-base"
                                 required
                             />
                             <span

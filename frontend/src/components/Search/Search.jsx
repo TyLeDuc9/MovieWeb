@@ -37,7 +37,7 @@ export const Search = () => {
                     value={queryMovies}
                     type='text'
                     placeholder='Tìm kiếm phim, diễn viên'
-                    className='outline-none bg-transparent font-semibold 
+                    className='outline-none bg-transparent text-base font-semibold 
                     lg:pl-4 lg:pr-10 lg:w-full w-[200px] md:w-[580px]                    '
 
                 />

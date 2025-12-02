@@ -56,7 +56,7 @@ export const UserProfile = () => {
           <input
             type="email"
             value={currentUser?.user?.email}
-            className="p-2 bg-transparent cursor-not-allowed text-gray-400 rounded lg:w-[400px] sm:w-[400px] w-[300px] focus:outline-none"
+            className="p-2 bg-transparent cursor-not-allowed text-base text-gray-400 rounded lg:w-[400px] sm:w-[400px] w-[300px] focus:outline-none"
             readOnly
           />
 
@@ -65,7 +65,7 @@ export const UserProfile = () => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="p-2 bg-transparent text-gray-400 rounded  lg:w-[400px] sm:w-[400px] w-[300px] "
+            className="p-2 bg-transparent text-gray-400 rounded text-base lg:w-[400px] sm:w-[400px] w-[300px] "
           />
 
           <label className='text-gray-400 text-xs mb-1'>Giới tính</label>
