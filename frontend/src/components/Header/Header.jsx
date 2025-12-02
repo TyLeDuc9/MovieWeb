@@ -83,7 +83,7 @@ export const Header = () => {
         ${isScrolled ? 'lg:bg-black shadow-md' : 'lg:bg-transparent'}`}
       >
         <div className='lg:col-span-4 lg:flex lg:items-center lg:gap-4 flex'>
-          <div className="lg:hidden text-white pr-4 pt-0.5">
+          <div className="lg:hidden text-white pr-4 pt-2">
             <button onClick={showNavBar}>
               {
                 showMobileMenu ? <FaTimes /> : <FaBars />
@@ -91,7 +91,7 @@ export const Header = () => {
             </button>
           </div>
           <Link to='/'>
-            <div className='lg:w-32 w-20 mt-0.5 mr-4'>
+            <div className='lg:w-32 w-20 lg:mt-0.5 mt-2 mr-4'>
               <img src={logo} alt='Logo' />
             </div>
           </Link>
