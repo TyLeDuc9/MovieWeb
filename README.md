@@ -72,4 +72,8 @@ VITE_TMDB_API_KEY=your_key
 🔹 Chạy Frontend
 npm run dev
 
+🌐 Truy cập website
+
+👉 https://rophim-fe.onrender.com
+
 ```
