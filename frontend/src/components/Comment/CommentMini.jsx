@@ -25,13 +25,13 @@ export const CommentMini = ({ parentId, movieId, onDone }) => {
   };
 
   return (
-    <form onSubmit={handleReplySubmit} className="bg-[#2e3148] text-white p-2 mt-2 rounded-lg lg:w-[600px] w-[300px] sm:w-[400px]">
+    <form onSubmit={handleReplySubmit} className="bg-[#2e3148] text-white p-2 mt-2 rounded-lg lg:w-[600px] w-[200px] sm:w-[400px]">
       <textarea
         value={replyContent}
         onChange={(e) => setReplyContent(e.target.value)}
         placeholder="Trả lời bình luận"
         maxLength={500}
-        className="w-full bg-[#17181f] text-white p-2 rounded-md resize-none focus:outline-none text-xs lg:text-sm"
+        className="w-full bg-[#17181f] text-white p-2 rounded-md resize-none focus:outline-none text-base"
         rows={3}
       />
       <div className="flex items-center justify-end mt-2">

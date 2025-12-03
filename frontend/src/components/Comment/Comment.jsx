@@ -108,7 +108,7 @@ export const Comment = ({ className = '' }) => {
         <img
           src={avatar}
           alt="avatar"
-          className="lg:h-[50px] lg:w-[50px] h-[40px] w-[40p  x] rounded-full object-cover 
+          className="lg:h-[50px] lg:w-[50px] h-[40px] w-[40px] rounded-full object-cover 
           shadow-md border-2 border-white mt-1 hover:opacity-85"
         />
         <div className='flex-col mt-2'>
@@ -126,7 +126,7 @@ export const Comment = ({ className = '' }) => {
               onChange={(e) => setContent(e.target.value)}
               placeholder="Viết bình luận"
               maxLength={500}
-              className="w-full bg-[#17181f] text-white p-2 rounded-md resize-none focus:outline-none text-xs lg:text-sm"
+              className="w-full bg-[#17181f] text-white p-2 rounded-md resize-none focus:outline-none text-base"
               rows={4}
             />
             <span className="absolute top-1 right-2 text-xs text-gray-400 ">
