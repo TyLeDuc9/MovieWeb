@@ -76,7 +76,7 @@ export const AuthFormChangePass = ({ closeForm }) => {
                         </span>
                     </div>
                     <div className='relative'>
-                        <label className="block text-gray-400base mb-1">Nhập lại mật khẩu mới</label>
+                        <label className="block text-gray-40 text-base mb-1">Nhập lại mật khẩu mới</label>
                         <input
                             type={showPassword ? 'text' : 'password'}
                             value={confirmPass}

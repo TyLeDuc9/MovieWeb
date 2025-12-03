@@ -25,7 +25,7 @@ export const CommentMini = ({ parentId, movieId, onDone }) => {
   };
 
   return (
-    <form onSubmit={handleReplySubmit} className="bg-[#2e3148] text-white p-2 mt-2 rounded-lg lg:w-[600px] w-[200px] sm:w-[400px]">
+    <form onSubmit={handleReplySubmit} className="bg-[#2e3148] text-white p-2 mt-2 rounded-lg lg:w-[600px] w-[300px] sm:w-[400px]">
       <textarea
         value={replyContent}
         onChange={(e) => setReplyContent(e.target.value)}
