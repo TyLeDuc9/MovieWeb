@@ -4,10 +4,21 @@ MovieWeb là một dự án website xem phim được xây dựng theo kiến tr
 
 ## Liên hệ
 
-- Gmail: ducty9963@gmail.com
-- Facebook: https://www.facebook.com/eucyldt/
+Công nghệ sử dụng
+Frontend
+React.js
+Redux Toolkit
+Axios
+React Router
+TailwindCSS
 
----
+Backend
+Node.js
+Express.js
+MongoDB
+Mongoose
+JWT – xác thực người dùng
+bcryptjs – mã hóa mật khẩu
 
 ## Công nghệ sử dụng
 
@@ -50,30 +61,29 @@ MovieWeb là một dự án website xem phim được xây dựng theo kiến tr
 git clone https://github.com/TyLeDuc9/MovieWeb.git
 cd MovieWeb
 
-⚙ Backend Setup
+Backend Setup
 cd backend
 npm install
 
-🔹 Tạo file .env
+Tạo file .env
 MONGO_URL=mongodb://localhost:27017/yourdb
 JWT_SECRET=your_secret_key
 
-🔹 Chạy Backend
+Chạy Backend
 npm start
 
-💻 Frontend Setup
-🔹 Cài đặt thư viện
+Frontend Setup
+Cài đặt thư viện
 
 cd frontend
 npm install
 
 VITE_TMDB_API_KEY=your_key
 
-🔹 Chạy Frontend
+Chạy Frontend
 npm run dev
 
 🔹 Truy cập website
 
 🔹 https://rophim-fe.onrender.com
 
-```

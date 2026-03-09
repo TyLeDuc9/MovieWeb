@@ -38,7 +38,6 @@ export const AuthFormRegister = ({ closeForm, handleSwitch, formType }) => {
         await registerUser(newUser, dispatch, setErrorMsg)
             .then(() => {
                 closeForm();
-                alert("Đăng ký thành công <3")
             })
             .catch((err) => {
                 console.error("Đăng ký thất bại:", err);

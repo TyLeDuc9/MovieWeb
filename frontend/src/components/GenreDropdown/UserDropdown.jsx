@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHeart, FaPlus, FaClock, FaUser, FaSignOutAlt, FaMars, FaVenus } from 'react-icons/fa';
+import { FaHeart, FaUser, FaSignOutAlt, FaMars, FaVenus } from 'react-icons/fa';
 import { MdAllInclusive } from 'react-icons/md';
 import { useDispatch, useSelector } from 'react-redux'
 import { logout } from '../../redux/authSlice'
@@ -22,8 +22,6 @@ export const UserDropdown = () => {
   }
   const tabs = [
     { id: 1, name: 'Yêu thích', icon: <FaHeart />, path: '/user/favorite' },
-    { id: 2, name: 'Danh sách', icon: <FaPlus />, path: '#' },
-    { id: 3, name: 'Xem tiếp', icon: <FaClock />, path: '#' },
     { id: 4, name: 'Tài khoản', icon: <FaUser />, path: '/user/profile' },
   ];
   return (

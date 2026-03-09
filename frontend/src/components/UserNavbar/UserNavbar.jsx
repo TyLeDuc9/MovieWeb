@@ -44,8 +44,6 @@ export const UserNavbar = () => {
 
   const tabs = [
     { id: 1, name: 'Yêu thích', icon: <FaHeart />, path: '/user/favorite' },
-    { id: 2, name: 'Danh sách', icon: <FaPlus />, path: '#' },
-    { id: 3, name: 'Xem tiếp', icon: <FaClock />, path: '#' },
     { id: 4, name: 'Tài khoản', icon: <FaUser />, path: '/user/profile' },
   ];
 
@@ -63,7 +61,7 @@ export const UserNavbar = () => {
         linkColor='text-white text-lg font-bold'
       />
 
-      <ul className=' text-white w-full px-4 flex lg:flex-col'>
+      <ul className=' text-white w-full px-4 flex justify-center lg:flex-col'>
         {tabs.map((tab) => (
           <li
             key={tab.id}
@@ -77,7 +75,7 @@ export const UserNavbar = () => {
         ))}
       </ul>
 
-      <div className='mt-50 w-full px-4 hidden lg:block '>
+      <div className='mt-72 w-full px-4 hidden lg:block '>
         <div>
           <img
             src={avatar}
